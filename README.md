@@ -75,7 +75,7 @@ Let's run our shinny new image and expose port 80 of the host machine to port 80
 
 While is it running try to hit port 80 of the host machine. You are not able to hit nginx are. That is because it isn't running. Going back to the prompt of the running container let start nginx.
 
-  $ service nginx start
+  ```$ service nginx start```
 
 Now we should be able to hit it. So that means that we should be able to run:
 
